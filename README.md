@@ -6,6 +6,7 @@
 
 ## Description
 This React project is a simple friends carousel that showcases information about four of my friends. It includes navigation buttons for next and previous slides and adds a fun feature where a toast notification appears when a user clicks on an image.
+Made using Reactjs,TailwindCSS
 
 ## Features
 - Displays information about four friends.
