@@ -19,12 +19,12 @@ export default function Card (props) {
             });
     }
     return (
-        <div className="flex flex-col md:relative">
-            <div className="absolute top-[-7rem] z-[10] mx-auto ">
-                <img onClick={show} className="aspect-square h-[140px] w-[140px] z-10 rounded-full" src={review.image} alt="" />
-                <div className="w-[145px] h-[145px] bg-[#6499E9] rounded-full absolute top-[-3px] z-[-10] left-[-1px]"></div>
+        <div className="flex flex-col text-md">
+            <div className=" z-[10] mx-auto flex relative">
+                <img onClick={show} className="absolute aspect-square h-[140px] w-[140px] z-10 rounded-full" src={review.image} alt="" />
+                <div className="w-[145px] h-[145px] bg-[#6499E9] rounded-full  top-[-3px] z-[-10] left-[-1px]"></div>
             </div>
-            <div className="text-center mt-7">
+            <div className="text-center">
                 <p className="tracking-wider font-bold text-2xl capitalize">{review.name}</p>
             </div>
             <div className="text-center mt-1">
@@ -34,7 +34,7 @@ export default function Card (props) {
             <div className="text-[#6499E9] mx-auto mt-5">
                 <FaQuoteLeft/>
             </div>
-            <div className="text-center mt-4 text-slate-500">
+            <div className="text-center mt-4 text-slate-500 text-md">
                 <p>{review.text}</p>
             </div>
             <div className="text-[#6499E9] mx-auto mt-5">

@@ -40,7 +40,7 @@ export default function Testimonials (props) {
                 <button onClick={leftHandler} className="cursor-pointer hover:text-violet-500"><FiChevronLeft/> </button>
                 <button onClick={rightHandler} className="cursor-pointer hover:text-violet-500"><FiChevronRight/></button>
             </div>
-            <div className="mx-auto mt-5">
+            <div className="mx-auto mt-5 hidden">
                 <button onClick={surpriseHandler} className="bg-[#6499E9] hover:bg-violet-500 cursor-pointer transition-all duration-200 px-10 py-2  rounded-md font-bold text-white text-lg">Random</button>
             </div>
         </div>
